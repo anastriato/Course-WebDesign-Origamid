@@ -1,0 +1,27 @@
+.container {
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    background: #ddd;   
+}
+
+.box-1{
+    width:200px;
+    height: 160px;
+    background: #aaa;
+    padding: 20px 10px;
+    border: 2px #000;
+    border-style: dashed;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.box-2{
+    width:200px;
+    height: 160px;
+    background: #aaa;
+    padding: 20px 10px;
+    border: 2px #000;
+    border-style: dashed;
+    margin-left: 20px;
+}

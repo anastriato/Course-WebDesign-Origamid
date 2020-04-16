@@ -1,0 +1,25 @@
+div{
+    margin: 40px auto;
+    width: 400px;
+    background: #eee;
+    padding: 10px;
+}
+
+p{
+    color: #66d9ef;
+    font: italic bold 14px/20px Arial;
+    text-indent: 20px;   
+    text-shadow: 1px 1px #ff0022;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+a{
+    text-decoration: none;
+    color: deeppink;
+}
+
+ul{
+    list-style:none;
+}
+
