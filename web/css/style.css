@@ -12,6 +12,7 @@ p {
 
 img {
     display:block;
+    max-width: 100%;
 }
 
 .btn {
@@ -113,32 +114,6 @@ img {
     color: #fff;
 }
 
-/*Introdução Interna*/
-
-.introducao-interna {
-	width: 100%;
-	margin-top: 92px;
-	height: 160px;
-    text-align: center;
-    color: #fff;
-    padding-top: 30px;
-}
-
-.introducao-interna h1 {
-    font-size: 36px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.introducao-interna h1:after{
-    content:"";
-    display: block;
-    width: 60px;
-    height: 3px;
-    background: #fff;
-    margin: 6px auto 10px auto;
-}
-
 /* Introdução */
 
 .introducao {
@@ -183,6 +158,32 @@ img {
     font-weight: bold;
     font-size: 14px;
     letter-spacing: .1em;
+}
+
+/*Introdução Interna*/
+
+.introducao-interna {
+	width: 100%;
+	margin-top: 92px;
+	height: 160px;
+    text-align: center;
+    color: #fff;
+    padding-top: 30px;
+}
+
+.introducao-interna h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.introducao-interna h1:after{
+    content:"";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #fff;
+    margin: 6px auto 10px auto;
 }
 
 /*Produtos*/
@@ -270,7 +271,7 @@ img {
 .qualidade:after{
     content:"";
     width: 634px;
-    height: 83px;
+    height: 83px;a
     display: block;
     background: url("../img/linhas.svg") no-repeat center;
     position: absolute;
